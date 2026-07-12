@@ -144,6 +144,7 @@ a {
 }
 table{
   width: 100%;
+  border-collapse: collapse;
 }
 .table-parent{
   display: flex;
@@ -167,9 +168,36 @@ table{
   font-size: 32px;
   font-weight: 700;
 }
+thead{
+  background-color: #A73131;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
 td{
   border: 1px solid black;
   border-collapse: collapse;
+  padding: 15px 55px;
+}
+.date{
+  color: #BA1A1A;
+}
+.match{
+  color: #111C2D;
+  font-weight: 700;
+}
+.venue{
+  color: #505F76;
+}
+.stage{
+  font-weight: 600;
+  font-size: 12px;
+}
+.opening{
+  color: #F60000;
+}
+.final{
+  color: #BDA004;
 }
 /* Footer section */
 footer {
