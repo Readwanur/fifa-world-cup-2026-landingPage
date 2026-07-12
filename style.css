@@ -21,11 +21,11 @@ nav {
   align-items: center;
   gap: 5vw;
 }
-ul,
-li {
+.nav-tabs>ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  list-style: none;
   gap: 5vw;
 }
 a {
@@ -94,7 +94,83 @@ a {
     font-weight: 600;
     font-size: 72px;
 }
+.resize{
+  max-width: 1200px;
+  margin: auto;
+}
+.host-cities-parent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8vh;
+  margin: 8vh 0 8vh 0;
+}
+.host-cities-parent>h1{
+  font-weight: 600;
+  font-size: 56px;
+}
+.cities-card-parent{
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 28px;
+}
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2vw;
+}
+.cities-desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 287px;
 
+}
+.cities-desc h1{
+  font-weight: 700;
+  font-size: 40px;
+}
+.cities-desc p{
+  font-weight: 400;
+  font-size: 16px;
+  color: #575757;
+}
+.cities-desc>ul{
+  font-size: 17px;
+  color: #4D4D4D;
+  padding-left: 20px;
+}
+table{
+  width: 100%;
+}
+.table-parent{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 1px solid #d9d9d9;
+  border-radius: 12px;
+  padding: 15px;
+}
+.table-title{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.table-title p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #575757;
+}
+.table-title h1{
+  font-size: 32px;
+  font-weight: 700;
+}
+td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
 /* Footer section */
 footer {
   height: 30vh;
